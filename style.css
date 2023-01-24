@@ -47,7 +47,7 @@ button:hover {
     border: 1px solid white;
     height: 60px;
     width: 450px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #FC0 5px 0 10px;
    
 }
 
@@ -79,9 +79,6 @@ div#line1:hover span#b {
     margin-right: 2%;
  }
 
- 
-    
-
  .routing #github:hover {
     background-color: #799657;
     border: 1px solid black;
@@ -93,8 +90,34 @@ div#line1:hover span#b {
     border-radius: 10%;
  }
 
- .routing #resume, .routing #linkedin {
+.routing #linkedin {
     margin-left: 1%;
+
+ }
+
+ .routing #github {
+    margin-left: 1%;
+ }
+
+ .resume a {
+    display: flex;
+    margin-top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(35, 36, 36);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+ }
+ .resume a:hover {
+   color:#799657;
+   border: 3px solid #799657;
+   text-shadow: none;
+   
+    
 
  }
 
