@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(10, 32, 20));
+    background-attachment: fixed;
     
 }
 
@@ -22,7 +23,6 @@ h1 {
 }
 
 p {
-    
     margin-left: 10%;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -94,6 +94,7 @@ div#line1:hover span#b {
  .routing #linkedin:hover {
     background-color: #799657;
     border-radius: 10%;
+
  }
 
 .routing #linkedin {
@@ -118,21 +119,24 @@ div#line1:hover span#b {
     border-radius: 10px;
 
  }
+
  .resume a:hover {
    color:#799657;
-   border: 3px solid #799657;
    text-shadow: none;
    
  }
+
  b {
     color: #799657;
     font-size: 60pt;
     font-weight: bolder;
 
  }
+
  q {
     font-style: italic;
  }
+ 
  h6 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 37%;
