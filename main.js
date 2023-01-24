@@ -9,8 +9,4 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
   });
 
-  function intro(){
-    let intro = 'Hello!';
-    console.log('hello');
-    return intro; 
-  }
+ 
