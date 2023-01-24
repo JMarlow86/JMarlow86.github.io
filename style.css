@@ -13,10 +13,7 @@ body {
     
 
 }
-.tool-tip {
-    font-weight: bold;
-    font-size: 20pt;
-}
+
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,7 +36,7 @@ p {
 }
 span {
     display: flex;
-    margin-left: 40%;
+    /* margin-left: 40%; */
 }
 
 .icons {
@@ -67,17 +64,38 @@ button {
     border: none;
 }
 button:hover{
-    background: linear-gradient(to right, rgb(69, 96, 81) 10%, rgb(2, 107, 49) 20%, #000206 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: larger;
-
+    border: 1px solid white;
+    height: 60px;
+    width: 450px;
+    font-size: ;
+    text-shadow: #FC0 1px 0 10px;
+   
 }
+div#line1 span#a {
+    display: inline;
 
+  }
+  
+  div#line1:hover span#a {
+    display: none;
+  }
+  
+  div#line1 span#b {
+    display: none;
+  }
+  
+  div#line1:hover span#b {
+    display: inline;
+  }
 .demo {
     color: white;
     display: none;
 
-    border: 1px solid red;
  }
+ .routing {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+
 
