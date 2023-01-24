@@ -1,63 +1,101 @@
 body {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10, 32, 20));
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(10, 32, 20));
     
 }
 
 .intro {
-    position: static;
     background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0), rgb(183, 218, 76), rgba(255,0,0,0));
     display:flex;
     flex-direction: column;
-    margin-top: 20%;
-    /* margin-left: 40%; */
+    margin-top: 10%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    /* text-align: center; */
-
+    
 }
 
 h1 {
-    margin-left: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10%;
     font-size: 60pt;
-    font-weight: bolder;
-    /* background: rgb(10, 32, 20); */
-    background: linear-gradient(to right, rgb(10, 32, 20) 10%, rgb(183, 218, 76) 20%,rgb(10, 32, 20) 20%, #FFFFFF 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: bold;
  
 }
 
 p {
     margin-left: 10%;
+    color: white;
+
 }
+
 span {
     display: flex;
-    margin-left: 40%;
-}
-
-.icons {
-    color: rgb(190, 222, 27);
-    margin-left: 40%;
-    margin-top: 2%;
-
-}
-.bi-braces{
-  margin-right: 19%;
     
 }
 
-.bi-code-slash {
-    margin-right: 19%;
+button {
+    margin-left: 10%;
+    background-color: rgb(35, 36, 36);
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    border: none;
 
 }
-button {
-    width: 100px;
-    height: 100px;
-    border-radius: 80%;
-    margin-left: 14%;
+
+button:hover {
+    border: 1px solid white;
+    height: 60px;
+    width: 450px;
+    text-shadow: #FC0 1px 0 10px;
+   
 }
-button:hover{
-width: 200px;
-height: 200px;
+
+div#line1 span#a {
+    display: inline;
 }
+  
+div#line1:hover span#a {
+    display: none;
+}
+  
+div#line1 span#b {
+    display: none;
+}
+  
+div#line1:hover span#b {
+    display: inline;
+}
+
+.demo {
+    color: white;
+    display: none;
+ }
+
+ .routing {
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    margin-right: 2%;
+ }
+
+ 
+    
+
+ .routing #github:hover {
+    background-color: #799657;
+    border: 1px solid black;
+    border-radius: 100%;
+ 
+ }
+ .routing #linkedin:hover {
+    background-color: #799657;
+    border-radius: 10%;
+ }
+
+ .routing #resume, .routing #linkedin {
+    margin-left: 1%;
+
+ }
+
 
