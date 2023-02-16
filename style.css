@@ -4,32 +4,104 @@ body {
     
 }
 
+img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+  }
+
+/* Nav Bar */
+.routing {
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+
+ }
+
+.routing #resume a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(35, 36, 36);
+    font-size: 13pt;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+ }
+
+ .routing #resume a:hover {
+    color:whitesmoke;
+    text-decoration: none;
+    text-shadow: #799657 5px 0 10px;
+   
+   
+}
+
+ .routing #github a, .routing #linkedin a {
+    color: rgb(35, 36, 36);
+    text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
+ 
+ 
+}
+.routing #github {
+    margin-left: 1%;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
+    
+ }
+
+ .routing #github:hover {
+    background-color: rgb(183, 218, 76);
+    border-radius: 100%;
+    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+   
+ }
+ .routing #linkedin {
+    margin-left: 1%;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
+    
+
+ }
+ .routing #linkedin:hover {
+    background-color: rgb(183, 218, 76);
+    border-radius: 10%;
+    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+
+ }
+
+/* Header */
 .intro {
-    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0), rgb(183, 218, 76), rgba(255,0,0,0));
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(183, 218, 76), rgba(255,0,0,0));
     display:flex;
     flex-direction: column;
-    /* margin-top: 10%; */
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1pt solid rgb(10, 32, 20);
+    margin-bottom: 2%;
     
+}
+
+#hello {
+    font-size: 20pt;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Rockwell;
+
     margin-left: 10%;
     font-size: 60pt;
     font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
- 
-}
-
-p {
-    margin-left: 10%;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14pt;
-    text-align: justify;
-
 }
 
 span {
@@ -39,6 +111,7 @@ span {
 
 button {
     margin-left: 10%;
+    margin-bottom: 2%;
     background-color: rgb(35, 36, 36);
     height: 40px;
     width: 300px;
@@ -51,10 +124,6 @@ button {
     text-shadow: #FC0 5px 0 10px;
 
 }
-#hello {
-    font-size: 20pt;
-
-}
 
 button:hover {
     border: 1px solid white;
@@ -64,11 +133,31 @@ button:hover {
    
 }
 
-div#line1 span#a {
+/* Button Expansion */
+b {
+    color: #799657;
+    font-size: 60pt;
+    font-weight: bolder;
+
+ }
+q {
+    font-style: italic;
+ }
+
+p {
+    margin-left: 10%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    text-align: justify;
+
+}
+
+div#line1 span#c {
     display: inline;
 }
   
-div#line1:hover span#a {
+div#line1:hover span#c {
     display: none;
 }
   
@@ -82,100 +171,21 @@ div#line1:hover span#b {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.demo {
+.about {
     color: white;
     display: none;
  }
 
- .routing {
-    display: flex;
-    justify-content: end;
-    margin-top: 2%;
-    margin-right: 2%;
-    margin-bottom: 1%;
- }
-
- .routing #github:hover {
-    background-color: rgb(183, 218, 76);
-    border-radius: 100%;
-    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
-    
-    
- 
 
 
  
- }
- .routing #linkedin:hover {
-    background-color: rgb(183, 218, 76);
-    border-radius: 10%;
-    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
-
-    
-
- }
-
-.routing #linkedin {
-    margin-left: 1%;
-    background-color: whitesmoke;
-    border-radius: 10%;
-    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
-    
-
- }
-
- .routing #github {
-    margin-left: 1%;
-    background-color: whitesmoke;
-    border-radius: 100%;
-    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
- }
-
-
-
- b {
-    color: #799657;
-    font-size: 60pt;
-    font-weight: bolder;
-
- }
-
- q {
-    font-style: italic;
- }
-
- h6 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 63%;
-    color: rgb(35, 36, 36);
-    font-size: 15pt;
-  
- }
-.intro a {
-    color: rgb(35, 36, 36);
-}
-
-.intro a:hover {
-    color:whitesmoke;
-    text-decoration: none;
-    height: 60px;
-    width: 300px;
-    text-shadow: #FC0 5px 0 10px;
-   
-}
-
-
- img{
-   margin-top: 2%;
-   margin-left: 40%;
-   width: 50%;
-   height: 50%;
- }
- a:hover {
-    color: red; 
- }
 
 
 
 
 
+
+
+
+
+ 
