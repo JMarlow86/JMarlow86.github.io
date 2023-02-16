@@ -1,30 +1,18 @@
-var tag = document.getElementById('demo');
+var tag = document.getElementById('about');
 var button = document.querySelector('button');
 var img = document.querySelector('img')
+var hello =document.querySelector('p')
+var h1 =document.querySelector('h1')
+
+
 button.addEventListener('click', function(){
-tag.classList.toggle('demo');
-button.style.display = "none";
-img.style.display = "none";
+    tag.classList.toggle('about');
+    button.style.display = "none";
+    img.style.display = "none";
+    hello.style.display = "none";
+    h1.style.marginTop = "30px";
+     
 });
 
-// var target = document.getElementById('fse-link');
-// var tag = document.getElementById('demo');
-// var link = document.querySelector('a'); 
-// link.addEventListener('click',function() {
-// target.classList.toggle('demo')
-// });
 
-// $(document).ready(function(){
-//     $('[data-toggle="tooltip"]').tooltip();   
-// //   });
 
-// const link = document.querySelector('a');
-// const 
-// link.addEventListener('mouseover', () => {
-//     link.classList.add('hovered');
-// });
-
-// link.addEventListener('mouseout', () => {
-//     link.classList.remove('hovered');
-// });
- 
