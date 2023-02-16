@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(10, 32, 20));
-    background-attachment: fixed;
+    padding-bottom: 5%;
     
 }
 
@@ -8,7 +8,7 @@ body {
     background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0), rgb(183, 218, 76), rgba(255,0,0,0));
     display:flex;
     flex-direction: column;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -19,6 +19,7 @@ h1 {
     margin-left: 10%;
     font-size: 60pt;
     font-weight: bold;
+    
  
 }
 
@@ -44,13 +45,21 @@ button {
     border-radius: 15px;
     color: white;
     border: none;
+    border: 1px solid white;
+    height: 60px;
+    width: 300px;
+    text-shadow: #FC0 5px 0 10px;
+
+}
+#hello {
+    font-size: 20pt;
 
 }
 
 button:hover {
     border: 1px solid white;
     height: 60px;
-    width: 450px;
+    width: 300px;
     text-shadow: #FC0 5px 0 10px;
    
 }
@@ -86,13 +95,15 @@ div#line1:hover span#b {
  }
 
  .routing #github:hover {
-    background-color: #799657;
+    background-color: #FC0;
     border: 1px solid black;
     border-radius: 100%;
+
+
  
  }
  .routing #linkedin:hover {
-    background-color: #799657;
+    background-color: #FC0;
     border-radius: 10%;
 
  }
@@ -106,7 +117,7 @@ div#line1:hover span#b {
     margin-left: 1%;
  }
 
- .resume a {
+ /* .resume a {
     display: flex;
     margin-top: 10%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -118,13 +129,8 @@ div#line1:hover span#b {
     padding-right: 10px;
     border-radius: 10px;
 
- }
+ } */
 
- .resume a:hover {
-   color:#799657;
-   text-shadow: none;
-   
- }
 
  b {
     color: #799657;
@@ -136,11 +142,35 @@ div#line1:hover span#b {
  q {
     font-style: italic;
  }
- 
+
  h6 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 37%;
+    margin-left: 63%;
+    color: rgb(35, 36, 36);
+    font-size: 15pt;
   
  }
+.intro a {
+    color: rgb(35, 36, 36);
+}
+
+.intro a:hover {
+    color:whitesmoke;
+    text-decoration: none;
+    height: 60px;
+    width: 300px;
+    text-shadow: #FC0 5px 0 10px;
+}
+
+
+ img{
+   margin-top: 2%;
+   margin-left: 40%;
+   width: 50%;
+   height: 50%;
+ }
+
+
+
 
 
