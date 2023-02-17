@@ -1,23 +1,21 @@
 body {
     background-color: white;
     padding-right: 20px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
    
 }
 #resume-container {
     background-color:#f3f4f3 ;
-    /* card color #dfe1e0 */
- 
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px rgb(10, 32, 20, 0.5);
 }
-/* .routing {
+.routing {
   display: flex;
   justify-content: end;
-  margin-top: 2%;
-  margin-right: 2%;
-  margin-bottom: 1%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
 
 }
 
@@ -31,10 +29,10 @@ body {
 
 }
 
-.routing #resume a:hover {
-  color:whitesmoke;
-  text-decoration: none;
-  text-shadow: #799657 5px 0 10px;
+.routing #scrum-link a:hover {
+
+ 
+  text-shadow: rgb(183, 218, 76) 5px 0 10px;
  
  
 }
@@ -47,30 +45,66 @@ body {
 }
 .routing #github {
   margin-left: 1%;
-  background-color: whitesmoke;
-  border-radius: 100%;
-  box-shadow: rgb(10, 32, 20) 5px 5px 10px;
-  
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
 }
 
 .routing #github:hover {
   background-color: rgb(183, 218, 76);
   border-radius: 100%;
   box-shadow: rgb(183, 218, 76) 5px 5px 10px;
- 
-}
-.routing #linkedin {
-  margin-left: 1%;
-  background-color: whitesmoke;
-  border-radius: 10%;
-  box-shadow: rgb(10, 32, 20) 5px 5px 10px;
+
   
 
 }
+.routing #linkedin {
+  margin-left: 1%;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+
 .routing #linkedin:hover {
   background-color: rgb(183, 218, 76);
   border-radius: 10%;
   box-shadow: rgb(183, 218, 76) 5px 5px 10px;
 
 }
- */
+.row #fun-bar {
+  background-color: rgb(183, 218, 76);
+  border-radius: 20px;
+  margin-left: -10%;
+  display: inline-flexbox;
+  padding-right: 10px;
+  box-shadow: rgb(3, 78, 49) 5px 5px 10px ;
+ cursor:default;
+  
+}
+.row ul {
+  display: inline-block;
+align-self: auto;
+  padding: 10px;
+
+}
+.row h3 {
+
+  
+  display: flex;
+  text-align: center;
+
+}
+.row #fun-bar li a {
+  color: rgb(3, 78, 49);
+  display: flex;
+ 
+ 
+
+
+
+}
+.row #fun-bar li :hover {
+  box-shadow: rgb(3, 78, 49) 5px 5px 10px ;
+  display: flex;
+  text-decoration: none;
+
+}
+
