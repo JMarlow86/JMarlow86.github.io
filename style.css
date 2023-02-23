@@ -1,13 +1,3 @@
-body {
-    background-color: #737373;
-    background-image: url("fig.svg");
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    
-}
-
 /* font-family: 'Bodoni Moda', serif;
 font-family: 'Cousine', monospace;
 font-family: 'Gloock', serif;
@@ -15,6 +5,15 @@ font-family: 'Labrada', serif;
 font-family: 'Major Mono Display', monospace;
 font-family: 'Monoton', cursive; */
 
+
+
+body {
+    background-color: rgb(164, 134, 115);
+    background-image: url("fig.svg");
+     background-position: contain;
+    background-repeat: no-repeat;
+
+}
 /* Nav Bar */
 .routing {
     display: flex;
@@ -52,7 +51,7 @@ font-family: 'Monoton', cursive; */
 
 .routing #github {
     margin-left: 1%;
-    background-color: #737373;
+    background-color: transparent;
     border-radius: 100%;
     box-shadow:rgb(226, 199, 181) 5px 5px 10px;
     
@@ -67,7 +66,7 @@ font-family: 'Monoton', cursive; */
 
 .routing #linkedin {
     margin-left: 1%;
-    background-color: #737373;
+    background-color: transparent;
     border-radius: 10%;
     box-shadow: rgb(226, 199, 181)5px 5px 10px;
     
@@ -89,7 +88,7 @@ font-family: 'Monoton', cursive; */
 
 /* Header */
 .intro {
-    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(255, 222, 89), rgba(255,0,0,0));
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
     display:flex;
     color:floralwhite;
     font-family: 'Cousine', monospace;
@@ -113,6 +112,7 @@ h1 {
     font-size: 70pt;
     font-weight: bold;
     text-shadow: 0 0 15px rgb(204, 78, 63);
+    color:
     
 }
 
@@ -121,29 +121,9 @@ span {
     
 }
 
-button {
-    margin-left: 8%;
-    margin-bottom: 2%;
-    background-color: rgb(35, 36, 36);
-    height: 40px;
-    width: 300px;
-    border-radius: 15px;
-    color: white;
-    border: none;
-    border: 1px solid white;
-    height: 60px;
-    width: 300px;
-    text-shadow: #FC0 5px 0 10px;
 
-}
 
-button:hover {
-    border: 1px solid white;
-    height: 60px;
-    width: 300px;
-    text-shadow: #FC0 5px 0 10px;
-   
-}
+
 
 /* Button Expansion */
 b {
@@ -167,28 +147,6 @@ p {
 
 }
 
-div#line1 span#c {
-    display: inline;
-}
-  
-div#line1:hover span#c {
-    display: none;
-}
-  
-div#line1 span#b {
-    display: none;
-}
-  
-div#line1:hover span#b {
-    display: inline;
-    font-size: 16pt;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.about {
-    color: white;
-    display: none;
-}
 
 .row #fun-bar {
     margin-top: 10px;

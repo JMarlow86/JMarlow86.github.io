@@ -2,39 +2,21 @@ body {
   background-color: rgb(164, 134, 115);
 
 }
- 
-#resume-container {
-  font-family: 'Cousine', monospace;
-  background-color:floralwhite ;
-  padding: 20px;
-  border-radius: 600px;
-  box-shadow: 0 0 100px rgb(226, 199, 181);
 
-}
-
-.professional-container {
-  border: 1px solid red;
-}
-.professional-container h4 {
-  color: rgb(164, 134, 115);
-}
-.professional-container span {
-  color:rgb(204, 78, 63)
-}
-#about {
-  width: 50em;
-  margin-top: 3%;
-  margin-left: 8%;
-  
-}
-
-
+/* NAVIGATION BAR */
 .routing {
   display: flex;
-  margin-left: 52%;
-  margin-top:2%;
-  margin-bottom: 2%;
-
+  padding-left: 45%;
+  padding-top:2%;
+  padding-bottom: 4%;
+  background-image: linear-gradient(to right,rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
+  color:floralwhite;
+  font-family: 'Cousine', monospace;
+  border: 5px solid;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-image: linear-gradient(to right, rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0),rgb(204, 78, 63), rgb(226, 199, 181),rgb(0,0,0,0)) 1;
 
 }
 
@@ -54,21 +36,21 @@ body {
  
  
 }
+
+/* FSE LINK INLINE STYLING */
  #fse-link {
   text-decoration: none;
   cursor: default;
   
  }
 
-
 .routing #github a, .routing #linkedin a {
-
   margin-top: 3%;
   color: rgb(49, 33, 16);
   text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
 
-
 }
+
 .routing #github {
   margin-left: 1%;
   filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
@@ -80,9 +62,8 @@ body {
   border-radius: 50%;
   box-shadow: rgb(226, 199, 181) 5px 5px 5px;
 
-  
-
 }
+
 .routing #linkedin {
   margin-left: 1%;
   filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
@@ -95,24 +76,26 @@ body {
   box-shadow: rgb(226, 199, 181) 5px 5px 5px;
 
 }
+
+/* SIDE BAR */
 .row #fun-bar {
   padding-top: 5%;
   background-color: rgb(226, 199, 181);
   border-radius: 100px 100px 20px 20px;
- 
-  /* margin-left: -10%; */
   display: inline-flexbox;
   padding-right: 10px;
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
  cursor:default;
   
 }
+
 .row ul {
   display: inline-block;
   align-self: auto;
   padding: 10px;
 
 }
+
 .row #fun-bar h3 {
   text-decoration: underline;
   display: flex;
@@ -121,14 +104,15 @@ body {
   color: floralwhite;
   text-shadow: 0 0 3px rgb(204, 78, 63);
 
-
 }
+
 .row #fun-bar li a {
   text-decoration: none;
   color: rgb(49, 33, 16);
   display: flex;
  
 }
+
 .row #fun-bar li :hover {
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
   display: flex;
@@ -139,35 +123,81 @@ body {
   padding: 3px;
 
 }
-
- .contact .cont-info {
-
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex;
-  justify-content: center;
  
-   
- }
- .contact h1 {
+/* RESUME */
+#resume-container {
+  font-family: 'Cousine', monospace;
+  background-color:floralwhite ;
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px ;
+  box-shadow: rgb(49, 33, 16) 5px 5px 30px ;
+  color: rgb(49, 33, 16);
 
-  font-family: 'Major Mono Display', monospace;
-  font-weight: bold;
-  text-shadow: 0 0 10px rgb(164, 134, 115);
-  color: floralwhite;
+}
+
+.contact h1 {
+  font-family: 'Cousine', monospace;
+  color: rgb(191,179,76 );
   font-size: 50pt;
   display: flex;
   justify-content: center;
   margin-top: 10%;
  
  }
+ .contact .cont-info {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: rgb(49, 33, 16);
+ 
+ }
+
 .divider {
-  
-   
-    background-color: rgb(191,179,76 );
-    border-radius: 5px;
-    height: .5em;
-    width: 50em;
-    margin-left: 7%;
+  background-color: rgb(191,179,76 );
+  border-radius: 5px;
+  height: .5em;
+  width: 50em;
+  margin-left: 7%;
     
-   
 }
+
+#about {
+  width: 50em;
+  margin-top: 3%;
+  margin-left: 8%;
+  color: rgb(49, 33, 16);
+  
+}
+
+.professional-container {
+  padding-left: 10%;
+
+}
+
+.professional-container h3 {
+  padding-left: -10%;
+  color: rgb(191,179,76 );
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.professional-container h4 {
+  color: rgb(191,179,76 );
+
+}
+
+.professional-container span {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+  color:rgb(204, 78, 63);
+
+}
+
+
+
+ 
+
+
+
