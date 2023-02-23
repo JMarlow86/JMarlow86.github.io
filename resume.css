@@ -1,23 +1,37 @@
 body {
-  /* background-color: #737373; */
   background-color: rgb(164, 134, 115);
-   
-   
+
 }
  
 #resume-container {
   font-family: 'Cousine', monospace;
   background-color:floralwhite ;
   padding: 20px;
-  border-radius: 20% 80% 20px 20px;
-  border: 50px solid rgb(255, 222, 89);
+  border-radius: 600px;
   box-shadow: 0 0 100px rgb(226, 199, 181);
+
+}
+
+.professional-container {
+  border: 1px solid red;
+}
+.professional-container h4 {
+  color: rgb(164, 134, 115);
+}
+.professional-container span {
+  color:rgb(204, 78, 63)
+}
+#about {
+  width: 50em;
+  margin-top: 3%;
+  margin-left: 8%;
+  
 }
 
 
 .routing {
   display: flex;
-  margin-left: 46%;
+  margin-left: 52%;
   margin-top:2%;
   margin-bottom: 2%;
 
@@ -34,7 +48,7 @@ body {
 
 }
 .routing #resume a:hover {
-  color:whitesmoke;
+  color:floralwhite;
   text-decoration: none;
   text-shadow: rgb(226, 199, 181) 5px 0 10px;
  
@@ -43,6 +57,7 @@ body {
  #fse-link {
   text-decoration: none;
   cursor: default;
+  
  }
 
 
@@ -81,8 +96,10 @@ body {
 
 }
 .row #fun-bar {
+  padding-top: 5%;
   background-color: rgb(226, 199, 181);
-  border-radius: 100px 80px 20px 20px;
+  border-radius: 100px 100px 20px 20px;
+ 
   /* margin-left: -10%; */
   display: inline-flexbox;
   padding-right: 10px;
@@ -96,34 +113,61 @@ body {
   padding: 10px;
 
 }
-.row h3 {
+.row #fun-bar h3 {
+  text-decoration: underline;
   display: flex;
-  text-align: center;
+  justify-content: center;
   font-family: 'Cousine', monospace;
-  color: rgb(204, 78, 63);
+  color: floralwhite;
+  text-shadow: 0 0 3px rgb(204, 78, 63);
+
 
 }
 .row #fun-bar li a {
+  text-decoration: none;
   color: rgb(49, 33, 16);
   display: flex;
  
- 
-
-
-
 }
 .row #fun-bar li :hover {
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
   display: flex;
   text-decoration: none;
+  font-size: large;
   border-radius: 10pt;
-  background-color: rgb(255, 222, 89);
+  background-color: rgb(226, 199, 181);
   padding: 3px;
 
 }
- #about{
- margin-left: 3%;
- width: 30em;
 
+ .contact .cont-info {
 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+ 
+   
  }
+ .contact h1 {
+
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(164, 134, 115);
+  color: floralwhite;
+  font-size: 50pt;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+ 
+ }
+.divider {
+  
+   
+    background-color: rgb(191,179,76 );
+    border-radius: 5px;
+    height: .5em;
+    width: 50em;
+    margin-left: 7%;
+    
+   
+}
