@@ -1,17 +1,23 @@
 body {
-    background-color: white;
+  /* background-color: #737373; */
+  background-color: rgb(164, 134, 115);
    
    
 }
+ 
 #resume-container {
-    background-color:#f3f4f3 ;
+  font-family: 'Cousine', monospace;
+  background-color:floralwhite ;
   padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgb(10, 32, 20, 0.5);
+  border-radius: 20% 80% 20px 20px;
+  border: 50px solid rgb(255, 222, 89);
+  box-shadow: 0 0 100px rgb(226, 199, 181);
 }
+
+
 .routing {
   display: flex;
-  margin-left: 60%;
+  margin-left: 46%;
   margin-top:2%;
   margin-bottom: 2%;
 
@@ -20,77 +26,85 @@ body {
 
 .routing #resume a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(35, 36, 36);
+  color: rgb(49, 33, 16);
   font-size: 13pt;
   display: inline-block;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   margin-top: 20px;
 
 }
-
-.routing #scrum-link a:hover {
-  text-shadow: rgb(183, 218, 76) 5px 0 10px;
+.routing #resume a:hover {
+  color:whitesmoke;
+  text-decoration: none;
+  text-shadow: rgb(226, 199, 181) 5px 0 10px;
  
  
 }
+ #fse-link {
+  text-decoration: none;
+  cursor: default;
+ }
+
 
 .routing #github a, .routing #linkedin a {
-  color: rgb(35, 36, 36);
+
+  margin-top: 3%;
+  color: rgb(49, 33, 16);
   text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
 
 
 }
 .routing #github {
   margin-left: 1%;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
 
 }
 
 .routing #github:hover {
-  background-color: rgb(183, 218, 76);
-  border-radius: 100%;
-  box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+  background-color: rgb(226, 199, 181);
+  border-radius: 50%;
+  box-shadow: rgb(226, 199, 181) 5px 5px 5px;
 
   
 
 }
 .routing #linkedin {
   margin-left: 1%;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
 
 }
 
 .routing #linkedin:hover {
-  background-color: rgb(183, 218, 76);
-  border-radius: 10%;
-  box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+  background-color: rgb(226, 199, 181);
+  border-radius: 100%;
+  box-shadow: rgb(226, 199, 181) 5px 5px 5px;
 
 }
 .row #fun-bar {
-  background-color: rgb(183, 218, 76);
-  border-radius: 20px;
+  background-color: rgb(226, 199, 181);
+  border-radius: 100px 80px 20px 20px;
   /* margin-left: -10%; */
   display: inline-flexbox;
   padding-right: 10px;
-  box-shadow: rgb(3, 78, 49) 5px 5px 10px ;
+  box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
  cursor:default;
   
 }
 .row ul {
   display: inline-block;
-align-self: auto;
+  align-self: auto;
   padding: 10px;
 
 }
 .row h3 {
-
-  
   display: flex;
   text-align: center;
+  font-family: 'Cousine', monospace;
+  color: rgb(204, 78, 63);
 
 }
 .row #fun-bar li a {
-  color: rgb(3, 78, 49);
+  color: rgb(49, 33, 16);
   display: flex;
  
  
@@ -99,9 +113,17 @@ align-self: auto;
 
 }
 .row #fun-bar li :hover {
-  box-shadow: rgb(3, 78, 49) 5px 5px 10px ;
+  box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
   display: flex;
   text-decoration: none;
+  border-radius: 10pt;
+  background-color: rgb(255, 222, 89);
+  padding: 3px;
 
 }
+ #about{
+ margin-left: 3%;
+ width: 30em;
 
+
+ }

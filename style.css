@@ -1,17 +1,19 @@
 body {
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(10, 32, 20));
-    padding-bottom: 5%;
+    background-color: #737373;
+    background-image: url("fig.svg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     
 }
 
-img{
-    display: flex;
-    margin: 0 auto;
-    width: 50%;
-    height: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-   
-  }
+/* font-family: 'Bodoni Moda', serif;
+font-family: 'Cousine', monospace;
+font-family: 'Gloock', serif;
+font-family: 'Labrada', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Monoton', cursive; */
 
 /* Nav Bar */
 .routing {
@@ -21,86 +23,96 @@ img{
     margin-right: 2%;
     margin-bottom: 1%;
 
- }
+}
 
 .routing #resume a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(35, 36, 36);
+    color: rgb(49, 33, 16);
     font-size: 13pt;
     display: inline-block;
     margin: 0 auto;
     margin-top: 20px;
 
- }
+}
 
- .routing #resume a:hover {
+.routing #resume a:hover {
     color:whitesmoke;
     text-decoration: none;
-    text-shadow: #799657 5px 0 10px;
+    text-shadow: rgb(226, 199, 181) 5px 0 10px;
    
    
 }
 
- .routing #github a, .routing #linkedin a {
+.routing #github a, .routing #linkedin a {
     color: rgb(35, 36, 36);
     text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
  
  
 }
+
 .routing #github {
     margin-left: 1%;
-    background-color: whitesmoke;
+    background-color: #737373;
     border-radius: 100%;
-    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
+    box-shadow:rgb(226, 199, 181) 5px 5px 10px;
     
  }
 
- .routing #github:hover {
-    background-color: rgb(183, 218, 76);
+.routing #github:hover {
+    background-color: rgb(226, 199, 181);
     border-radius: 100%;
-    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+    box-shadow: rgb(226, 199, 181) 5px 5px 10px;
    
- }
- .routing #linkedin {
+}
+
+.routing #linkedin {
     margin-left: 1%;
-    background-color: whitesmoke;
+    background-color: #737373;
     border-radius: 10%;
-    box-shadow: rgb(10, 32, 20) 5px 5px 10px;
+    box-shadow: rgb(226, 199, 181)5px 5px 10px;
     
 
- }
- .routing #linkedin:hover {
-    background-color: rgb(183, 218, 76);
-    border-radius: 10%;
-    box-shadow: rgb(183, 218, 76) 5px 5px 10px;
+}
 
- }
+.routing #linkedin:hover {
+    background-color: rgb(226, 199, 181);
+    border-radius: 10%;
+    box-shadow: rgb(226, 199, 181);
+
+}
+
+/* hr {
+    border: none;
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(191,179,76 ),rgb(191, 179, 76), rgba(255,0,0,0));
+    height: 15px;
+} */
 
 /* Header */
 .intro {
-    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(183, 218, 76), rgba(255,0,0,0));
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(255, 222, 89), rgba(255,0,0,0));
     display:flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: 1pt solid rgb(10, 32, 20);
-    margin-bottom: 2%;
+    color:floralwhite;
+    font-family: 'Cousine', monospace;
+    border: 5px solid;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-image: linear-gradient(to right, rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0),rgb(204, 78, 63), rgb(226, 199, 181)) 1;
+ 
+
+  
     
 }
 
-#hello {
-    font-size: 20pt;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
-}
 
 h1 {
-    font-family:Rockwell;
-
-    margin-left: 10%;
-    font-size: 60pt;
+    font-family: 'Major Mono Display', monospace;
+    margin-left: 8%;
+    /* margin-top: 2%; */
+    font-size: 70pt;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgb(204, 78, 63);
     
 }
 
@@ -110,7 +122,7 @@ span {
 }
 
 button {
-    margin-left: 10%;
+    margin-left: 8%;
     margin-bottom: 2%;
     background-color: rgb(35, 36, 36);
     height: 40px;
@@ -139,15 +151,17 @@ b {
     font-size: 60pt;
     font-weight: bolder;
 
- }
+}
+
 q {
     font-style: italic;
- }
+
+}
 
 p {
     margin-left: 10%;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cousine', monospace;
     font-size: 14pt;
     text-align: justify;
 
@@ -174,7 +188,45 @@ div#line1:hover span#b {
 .about {
     color: white;
     display: none;
- }
+}
+
+.row #fun-bar {
+    margin-top: 10px;
+    background-color: floralwhite ;
+    font-family: 'Cousine', monospace;;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(25, 11, 8, 0.75);
+    cursor:default;
+   
+    
+}
+
+.row ul {
+    display: inline-block;
+    align-self: auto;
+    padding: 10px;
+  
+}
+
+.row h3 {
+    display: flex;
+    text-align: center;
+  
+}
+
+.row #fun-bar li a {
+    color: rgb(3, 78, 49);
+    display: flex;
+
+}
+
+.row #fun-bar li :hover {
+    box-shadow: rgb(3, 78, 49) 5px 5px 10px ;
+    display: flex;
+    text-decoration: none;
+  
+}
 
 
 
