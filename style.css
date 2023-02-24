@@ -9,7 +9,7 @@ font-family: 'Monoton', cursive; */
 
 body {
     background-color: rgb(164, 134, 115);
-    background-image: url("fig.svg");
+    background-image: url("figs.svg");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
