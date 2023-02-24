@@ -16,7 +16,7 @@ body {
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
-  border-image: linear-gradient(to right, rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0),rgb(204, 78, 63), rgb(226, 199, 181),rgb(0,0,0,0)) 1;
+  border-image: linear-gradient(to right, rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0),rgb(226, 199, 181),rgb(204, 78, 63),rgb(204, 78, 63), rgb(226, 199, 181),rgb(0,0,0,0)) 1;
 
 }
 
@@ -136,12 +136,16 @@ body {
 }
 
 .contact h1 {
-  font-family: 'Cousine', monospace;
-  color: rgb(191,179,76 );
+  
+  color: floralwhite;
   font-size: 50pt;
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 2%;
+  font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgb(204, 78, 63);
+    
  
  }
  .contact .cont-info {
