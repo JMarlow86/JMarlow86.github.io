@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(164, 134, 115);
+  /* background-color: rgb(164, 134, 115); */
+  background-color: lightblue;
 
 }
 
@@ -44,36 +45,31 @@ body {
   
  }
 
-.routing #github a, .routing #linkedin a {
+/* .routing #github a, .routing #linkedin a {
   margin-top: 3%;
   color: rgb(49, 33, 16);
   text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
+  border: 1px solid red;
 
-}
+} */
 
-.routing #github {
+.routing #github, .routing #linkedin {
   margin-left: 1%;
   filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
 
 }
 
-.routing #github:hover {
+.routing #github:hover, .routing #github:hover {
   background-color: rgb(226, 199, 181);
-  border-radius: 50%;
-  box-shadow: rgb(226, 199, 181) 5px 5px 5px;
+
+ 
+ 
 
 }
-
-.routing #linkedin {
-  margin-left: 1%;
-  filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
-
-}
-
 .routing #linkedin:hover {
   background-color: rgb(226, 199, 181);
-  border-radius: 100%;
-  box-shadow: rgb(226, 199, 181) 5px 5px 5px;
+
+
 
 }
 
