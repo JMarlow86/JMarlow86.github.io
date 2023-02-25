@@ -10,7 +10,6 @@ font-family: 'Monoton', cursive; */
 body {
     margin-top:5%;
     background-color: lightblue;
-    /* background-color: rgb(164, 134, 115); */
     background-image: url("figs.svg");
     max-width: 100%;
     background-size: cover;
@@ -22,11 +21,28 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
-     font-size: 50%;
+     font-size: 80%;
+     /* background-image: none; */
+     background-position: right top;
+     margin: 7%;
     }
    
   }
+@media screen and (max-width: 600px) {
+    .routing {
+        display: inline-block;
+        margin-left: 10%;
+       
+    }
+    @media screen and (max-width: 600px) {
+        .routing #github, .routing #linkedin {
+            margin-top: 10%;
+        }
+    
+    }
+      
+
+    }
 
 /* Nav Bar */
 .routing {
