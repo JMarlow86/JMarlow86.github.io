@@ -1,7 +1,27 @@
 body {
   /* background-color: rgb(164, 134, 115); */
   background-color: lightblue;
+  margin-bottom: 10%;
 
+}
+
+@media only screen and (max-width: 600px) {
+  .row #fun-bar {
+display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact .cont-info {
+    font-size: 80%;
+  }
+  
 }
 
 /* NAVIGATION BAR */
@@ -45,13 +65,7 @@ body {
   
  }
 
-/* .routing #github a, .routing #linkedin a {
-  margin-top: 3%;
-  color: rgb(49, 33, 16);
-  text-shadow: 0 0 5px rgb(10, 32, 20, 0.2);
-  border: 1px solid red;
 
-} */
 
 .routing #github, .routing #linkedin {
   margin-left: 1%;
@@ -153,18 +167,16 @@ body {
  }
 
 .divider {
+  display:flex;
+  justify-content: center;
   background-color: rgb(191,179,76 );
   border-radius: 5px;
   height: .5em;
-  width: 50em;
-  margin-left: 7%;
-    
+  
 }
 
 #about {
-  width: 50em;
-  margin-top: 3%;
-  margin-left: 8%;
+ padding: 5%;
   color: rgb(49, 33, 16);
   
 }
