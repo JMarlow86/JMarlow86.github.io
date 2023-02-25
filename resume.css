@@ -1,15 +1,20 @@
 body {
-  /* background-color: rgb(164, 134, 115); */
   background-color: lightblue;
   margin-bottom: 10%;
 
 }
+@media only screen and (max-width: 600px){
+  .routing #github, .routing #linkedin {
+    margin-top: 5%;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .row #fun-bar {
-display: none;
+    display: none;
   }
 }
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -24,10 +29,33 @@ display: none;
   
 }
 
+@media only screen and (max-width: 600px) {
+  .routing {
+    justify-content: flex-start;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+  #resume-container {
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    font-size: 70%;
+    height: 50em;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+}
+
+
 /* NAVIGATION BAR */
 .routing {
   display: flex;
-  padding-left: 45%;
+  /* padding-left: 45%; */
+  justify-content: flex-end;
   padding-top:2%;
   padding-bottom: 4%;
   background-image: linear-gradient(to right,rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
@@ -76,16 +104,12 @@ display: none;
 .routing #github:hover, .routing #github:hover {
   background-color: rgb(226, 199, 181);
 
- 
- 
-
 }
-.routing #linkedin:hover {
+
+/* .routing #linkedin:hover {
   background-color: rgb(226, 199, 181);
 
-
-
-}
+} */
 
 /* SIDE BAR */
 .row #fun-bar {
@@ -95,7 +119,7 @@ display: none;
   display: inline-flexbox;
   padding-right: 10px;
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
- cursor:default;
+  cursor:default;
   
 }
 
@@ -153,8 +177,8 @@ display: none;
   justify-content: center;
   margin-top: 2%;
   font-family: 'Major Mono Display', monospace;
-    font-weight: bold;
-    text-shadow: 0 0 15px rgb(204, 78, 63);
+  font-weight: bold;
+  text-shadow: 0 0 15px rgb(204, 78, 63);
     
  
  }
