@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   margin-bottom: 10%;
+  color: rgb(49, 33, 16);
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -11,7 +12,6 @@ body {
 /* NAVIGATION BAR */
 .routing {
   display: flex;
-  /* padding-left: 45%; */
   justify-content: flex-end;
   padding-top:2%;
   padding-bottom: 4%;
@@ -159,6 +159,7 @@ body {
     
  
  }
+
  .contact .cont-info {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
@@ -192,14 +193,6 @@ body {
 
 }
 
-.professional-container h3 {
-  padding-left: -10%;
-  color: rgb(191,179,76 );
-  font-weight: bold;
-  text-decoration: underline;
-
-}
-
 .professional-container h4 {
   color: rgb(191,179,76 );
 
@@ -212,14 +205,13 @@ body {
   color:rgb(204, 78, 63);
 
 }
-.certs span {
 
-/* display: flex;
-justify-content: flex_start; */
+.certs span {
 margin-bottom: 2%;
 color:rgb(204, 78, 63);
 
 }
+
 li{
   margin-bottom: 2%;
 }
@@ -227,14 +219,21 @@ li{
 footer {
   margin-left: 6%;
 }
+
 .extras {
   margin-left:10%
 }
+
 .extras h4 {
   color:rgb(191,179,76 );
 }
+
 .extras span {
   color:rgb(204, 78, 63);
+}
+
+h3{
+  margin-left: -10%;
 }
 
 
