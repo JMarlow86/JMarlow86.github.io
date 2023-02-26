@@ -212,11 +212,30 @@ body {
   color:rgb(204, 78, 63);
 
 }
+.certs span {
+
+/* display: flex;
+justify-content: flex_start; */
+margin-bottom: 2%;
+color:rgb(204, 78, 63);
+
+}
+li{
+  margin-bottom: 2%;
+}
 
 footer {
   margin-left: 6%;
 }
-
+.extras {
+  margin-left:10%
+}
+.extras h4 {
+  color:rgb(191,179,76 );
+}
+.extras span {
+  color:rgb(204, 78, 63);
+}
 
 
  
