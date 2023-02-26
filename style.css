@@ -152,6 +152,10 @@ span {
     text-decoration: none;
   
 }
+footer {
+    margin: 6%;
+    position: fixed;
+}
 
 
 
