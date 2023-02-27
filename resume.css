@@ -183,7 +183,7 @@ body {
 }
 
 #about {
- padding: 5%;
+  padding:1%;
   color: rgb(49, 33, 16);
   
 }
@@ -234,6 +234,12 @@ footer {
 
 h3{
   margin-left: -10%;
+}
+ 
+.about h3 {
+  color:rgb(204, 78, 63);
+  margin-left: .5%;
+  padding-bottom: 1%;
 }
 
 
