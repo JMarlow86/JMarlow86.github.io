@@ -8,6 +8,10 @@ $(document).ready(function(){
   $('#myCarousel').carousel();
 });
 
+$('.carousel').carousel({
+  interval: 6000
+})
+
 
 
   
