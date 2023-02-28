@@ -1,4 +1,5 @@
 
+// FOOTER CODE
 let currentYear = new Date().getFullYear();
 let copyrightNotice = document.createElement("footer");
 copyrightNotice.innerHTML = "Copyright © " + currentYear + " Jamie Marlow. All Rights Reserved";
@@ -6,12 +7,20 @@ document.body.appendChild(copyrightNotice);
 
 
 
-function search(){
-  let textToSearch = document.getElementById("text-to-search").value;
-  let forSearch = document.getElementById("forSearch");
-  textToSearch = textToSearch.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
-
-  let pattern = new RegExp(`${textToSearch}`,"gi");
-
-  forSearch.innerHTML = forSearch.textContent.replace(pattern, match => `<mark>${match}</mark>`)
+// RESUME SKILLSET SEARCH BAR
+function search_skills() {
+  let input = document.getElementById('searchbar').value
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('skills');
+  
+  for (i = 0; i < x.length; i++) { 
+      if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display="none";
+          
+      }
+      else {
+          x[i].style.display="list-item";                 
+      }
+  }
 }
+
