@@ -11,10 +11,11 @@ body {
 
 /* NAVIGATION BAR */
 .routing {
-  display: inline-flex;
+  
+  display: flex;
   justify-content: flex-end;
   padding-top:2%;
-  padding-bottom: 4%;
+ 
   background-image: linear-gradient(to right,rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
   color:floralwhite;
   font-family: 'Cousine', monospace;
@@ -242,25 +243,30 @@ h3{
   padding-bottom: 1%;
 }
 
-mark {
-display: block;
-background-color:rgb(246, 222, 6);
-box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
-display: flex;
-text-decoration: none;
-font-size: large;
-border-radius: 10pt;
-padding: 3px;
+#searchbar{
+
+  margin-top: 7%;
+  padding:15px;
+  border-radius: 10px;
+  /* width: 200px; */
+  width: 50%;
+  background-color: floralwhite;
+  border-color:rgb(49, 33, 16);
 
 }
+@media only screen and (max-width: 600px) {
+  #searchbar {
+    display: none
+  }
+}
 
-span {
-  display: block;
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
 }
 
 
-
- 
-
-
-
+.skills{
+display: list-item;    
+} 
