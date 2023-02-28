@@ -45,17 +45,17 @@ body {
 .routing #resume a:hover {
   color:floralwhite;
   text-decoration: none;
-  text-shadow: rgb(226, 199, 181) 5px 0 10px;
+  text-shadow: rgb(204, 78, 63) 5px 0 10px;
+
  
  
 }
 
-/* FSE LINK INLINE STYLING */
+/*  SEE FSE LINK INLINE STYLING */
  #fse-link {
   text-decoration: none;
-  cursor: default;
-  
  }
+
 
 
 
@@ -81,7 +81,7 @@ body {
   padding-right: 10px;
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
   cursor:default;
-  
+  height: 65em;
 }
 @media only screen and (max-width: 600px) {
   .row #fun-bar {
@@ -106,14 +106,15 @@ body {
 
 }
 
-.row #fun-bar li a {
-  text-decoration: none;
+.skills {
+  /* text-decoration: none; */
   color: rgb(49, 33, 16);
   display: flex;
  
+ 
 }
 
-.row #fun-bar li :hover {
+.skills:hover {
   box-shadow: rgb(49, 33, 16) 5px 5px 10px ;
   display: flex;
   text-decoration: none;
@@ -215,7 +216,10 @@ color:rgb(204, 78, 63);
 
 li{
   margin-bottom: 2%;
+  text-decoration: underline;
+  margin-left: 9%;
 }
+
 
 footer {
   margin-left: 6%;
@@ -270,3 +274,32 @@ input[type=text] {
 .skills{
 display: list-item;    
 } 
+
+.header {
+  display: h3; 
+}
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background-color:rgb(49, 33, 16);
+  color: floralwhite;
+  font-size: 100%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: -1.6em;
+  left: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  border-radius: 10px;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+}
