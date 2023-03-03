@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-   background-attachment:scroll;
+    background-attachment:scroll;
     
 }
 
@@ -42,6 +42,26 @@ body {
     }
 
 /* Nav Bar */
+button {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 15pt;
+    background-color:rgb(191,179,76 );
+    color: rgb(49, 33, 16);
+    box-shadow: #312110 5px 5px 10px;
+    border: none;
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 8px 10px;
+}
+
+button:hover{
+    border: 1px solid rgb(49, 33, 16) ;
+}
+#icon {
+    margin-right: 7px;
+
+   
+}
 .routing {
     display: flex;
     justify-content: end;
@@ -51,41 +71,21 @@ body {
 
 }
 
-.routing #resume a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(49, 33, 16);
-    font-size: 13pt;
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 20px;
-
-}
-
-.routing #resume a:hover {
-    color:floralwhite;
-    text-decoration: none;
-    text-shadow: rgb(226, 199, 181) 5px 0 10px;
-   
-}
-
 .routing #github, .routing #linkedin {
     margin-left: 1%;
-    filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
+    filter: drop-shadow(3px 5px 2px rgb(191,179,76 ));
     
  }
 
-.routing #github:hover, .routing #linkedin:hover  {
-    background-color: rgb(226, 199, 181);
-    border-radius: 100%;
+
+  
    
-}
 
 /* Header */
 .intro {
     display:flex;
     background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0),rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
     color:floralwhite;
-    font-family: 'Cousine', monospace;
     border: 5px solid;
     border-image: linear-gradient(to right, rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0),rgb(204, 78, 63), rgb(226, 199, 181)) 1;
     border-top: transparent;
@@ -100,9 +100,17 @@ body {
     margin-left: 6%;
     font-size: 30pt;
     font-weight: bold;
-    text-shadow: 0 0 15px rgb(204, 78, 63);
+    text-shadow: 0 0 15px rgb(49, 33, 16);
     
     
+}
+#resume a {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    color: rgb(204, 78, 63);
+    /* text-decoration: none; */
+   
 }
 
 span {
@@ -111,7 +119,7 @@ span {
 }
 
 .row #fun-bar {
-    font-family: 'Cousine', monospace;
+    font-family: 'Slabo 27px', serif;
     margin-top: 2%;
     background-color: floralwhite ;
     padding: 30px;

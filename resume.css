@@ -34,7 +34,7 @@ body {
 }
 
 .routing #resume a {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Major Mono Display', monospace;
   color: rgb(49, 33, 16);
   font-size: 13pt;
   display: inline-block;
@@ -54,6 +54,7 @@ body {
 /*  SEE FSE LINK INLINE STYLING */
  #fse-link {
   text-decoration: none;
+ 
  }
 
 
@@ -75,7 +76,7 @@ body {
 /* SIDE BAR */
 .row #fun-bar {
   padding-top: 5%;
-  background-color: rgb(226, 199, 181);
+  background-color: rgb(204, 78, 63);
   border-radius: 100px 100px 20px 20px;
   display: inline-flexbox;
   padding-right: 10px;
