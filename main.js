@@ -27,3 +27,9 @@ function search_skills() {
   }
 }
 
+$(document).ready(function() {
+    $('#myCarousel').carousel({
+      interval: 10000
+    });
+  });
+
