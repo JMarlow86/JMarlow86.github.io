@@ -15,10 +15,8 @@ body {
   display: flex;
   justify-content: flex-end;
   padding-top:2%;
- 
   background-image: linear-gradient(to right,rgb(0,0,0,0),floralwhite, rgba(255,0,0,0));
   color:floralwhite;
-  font-family: 'Cousine', monospace;
   border: 5px solid;
   border-top: transparent;
   border-right: transparent;
@@ -33,7 +31,7 @@ body {
   }
 }
 
-.routing #resume a {
+/* .routing #resume a {
   font-family: 'Major Mono Display', monospace;
   color: rgb(49, 33, 16);
   font-size: 13pt;
@@ -49,6 +47,28 @@ body {
 
  
  
+} */
+button {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 15pt;
+  background-color:rgb(191,179,76 );
+  color: rgb(49, 33, 16);
+  box-shadow: #312110 5px 5px 10px;
+  border: none;
+  margin-top: 10%;
+  border-radius: 20px;
+  padding: 8px 10px;
+  text-decoration: underline rgb(204, 78, 63);
+}
+
+button:hover{
+  border: 1px solid rgb(49, 33, 16) ;
+  text-decoration: none;
+  box-shadow: none;
+}
+#icon {
+  margin-right: 7px;
+
 }
 
 /*  SEE FSE LINK INLINE STYLING */
@@ -61,14 +81,22 @@ body {
 
 
 .routing #github, .routing #linkedin {
-  margin-left: 1%;
-  filter: drop-shadow(3px 5px 2px rgb(226, 199, 181));
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  filter: drop-shadow(3px 5px 2px rgb(191,179,76 ));
 
 }
 @media only screen and (max-width: 600px){
   .routing #github, .routing #linkedin {
     margin-top: 5%;
   }
+}
+.routing #github:hover, .routing #linkedin:hover {
+  filter: drop-shadow(3px 5px 2px rgb(191,179,76, 0.1 ));
+  
+ 
+ 
 }
 
 
@@ -98,10 +126,10 @@ body {
 }
 
 .row #fun-bar h3 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   display: flex;
-  justify-content: center;
-  font-family: 'Cousine', monospace;
+  justify-content: flex-end;
+  font-family: 'Slabo 27px', serif;
   color: floralwhite;
   text-shadow: 0 0 3px rgb(204, 78, 63);
 
@@ -128,7 +156,8 @@ body {
  
 /* RESUME */
 #resume-container {
-  font-family: 'Cousine', monospace;
+  text-align: justify;
+  font-family: 'Slabo 27px', serif;
   background-color:floralwhite ;
   padding: 20px;
   border-radius: 20px 20px 20px 20px ;
@@ -148,6 +177,11 @@ body {
 
   }
 }
+li {
+  font-family: 'Slabo 27px', serif;
+  text-align: justify;
+  
+}
 
 .contact h1 {
   
@@ -158,13 +192,13 @@ body {
   margin-top: 2%;
   font-family: 'Major Mono Display', monospace;
   font-weight: bold;
-  text-shadow: 0 0 15px rgb(204, 78, 63);
+  text-shadow: 0 0 5px #A48673;;
     
  
  }
 
  .contact .cont-info {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Slabo 27px', serif;
   display: flex;
   justify-content: center;
   color: rgb(49, 33, 16);
@@ -205,7 +239,9 @@ body {
   display: flex;
   justify-content: flex-start;
   align-content: space-between;
-  color:rgb(204, 78, 63);
+  color:rgb(191,179,76 );
+  font-size: 20pt;
+
 
 }
 
@@ -214,13 +250,6 @@ margin-bottom: 2%;
 color:rgb(204, 78, 63);
 
 }
-
-li{
-  margin-bottom: 2%;
-  text-decoration: underline;
-  margin-left: 9%;
-}
-
 
 footer {
   margin-left: 6%;
@@ -273,7 +302,10 @@ input[type=text] {
 
 
 .skills{
-display: list-item;    
+display: list-item;   
+margin-bottom: 2%;
+text-decoration: underline;
+margin-left: 9%; 
 } 
 
 .header {
