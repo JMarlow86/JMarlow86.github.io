@@ -60,8 +60,8 @@ button:hover{
 #icon {
     margin-right: 7px;
 
-   
 }
+
 .routing {
     display: flex;
     justify-content: end;
@@ -77,6 +77,12 @@ button:hover{
     
  }
 
+ .routing #github:hover, .routing #linkedin:hover {
+    filter: drop-shadow(3px 5px 2px rgb(191,179,76, 0.1 ));
+    
+   
+   
+ }
 
   
    
@@ -95,12 +101,14 @@ button:hover{
 }
 
 .iAm{
+    display: flex;
+    justify-content: center;
     color: floralwhite;
     font-family: 'Major Mono Display', monospace;
     margin-left: 6%;
-    font-size: 30pt;
+    font-size: 32pt;
     font-weight: bold;
-    text-shadow: 0 0 15px rgb(49, 33, 16);
+    text-shadow: 0 0 5px #A48673;
     
     
 }
@@ -111,6 +119,10 @@ button:hover{
     color: rgb(204, 78, 63);
     /* text-decoration: none; */
    
+}
+
+#resume a:hover{
+    text-decoration: none;
 }
 
 span {
