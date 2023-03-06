@@ -31,23 +31,6 @@ body {
   }
 }
 
-/* .routing #resume a {
-  font-family: 'Major Mono Display', monospace;
-  color: rgb(49, 33, 16);
-  font-size: 13pt;
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 20px;
-
-}
-.routing #resume a:hover {
-  color:floralwhite;
-  text-decoration: none;
-  text-shadow: rgb(204, 78, 63) 5px 0 10px;
-
- 
- 
-} */
 button {
   font-family: 'Major Mono Display', monospace;
   font-size: 15pt;
@@ -128,11 +111,13 @@ button:hover{
 .row #fun-bar h3 {
   /* text-decoration: underline; */
   display: flex;
-  justify-content: flex-end;
   font-family: 'Slabo 27px', serif;
   color: floralwhite;
-  text-shadow: 0 0 3px rgb(204, 78, 63);
-
+  text-shadow: 0 0 3px rgb(49, 33, 16);
+  font-size: 12pt;
+  display: flex;
+ justify-content: center;
+ text-align: center;
 }
 
 .skills {
@@ -149,7 +134,7 @@ button:hover{
   text-decoration: none;
   font-size: large;
   border-radius: 10pt;
-  background-color: rgb(226, 199, 181);
+  background-color: rgb(204, 78, 63);
   padding: 3px;
 
 }
@@ -267,8 +252,18 @@ footer {
   color:rgb(204, 78, 63);
 }
 
-h3{
-  margin-left: -10%;
+
+
+h2 {
+  display: flex;
+ justify-content: center;
+ font-family: 'Major Mono Display', monospace;
+ font-size: 20pt;
+ list-style: none;
+  padding-bottom: 5%;
+  text-decoration: underline;
+  
+
 }
  
 .about h3 {
@@ -308,9 +303,7 @@ text-decoration: underline;
 margin-left: 9%; 
 } 
 
-.header {
-  display: h3; 
-}
+
 [data-title]:hover:after {
   opacity: 1;
   transition: all 0.1s ease 0.5s;
@@ -336,3 +329,6 @@ margin-left: 9%;
 [data-title] {
   position: relative;
 }
+
+
+
