@@ -53,6 +53,8 @@ button {
     border-radius: 20px;
     padding: 8px 10px;
     
+    
+    
 }
 
 
@@ -104,7 +106,8 @@ button:hover{
 }
 
 .iAm{
-    display: flex;
+    display: block;
+    justify-content: space-around;
     justify-content: center;
     color: floralwhite;
     font-family: 'Major Mono Display', monospace;
@@ -141,7 +144,7 @@ span {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(25, 11, 8, 0.75);
     cursor:default;
-    height: 30.5em;
+    height: 35.5em;
     overflow-x: hidden;
     overflow-y: auto;
    
