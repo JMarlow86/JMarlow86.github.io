@@ -242,20 +242,54 @@ li {
 .professional-container span {
   display: flex;
   justify-content: flex-start;
-  align-content: space-between;
   color:rgb(191,179,76 );
   font-size: 15pt;
 
 
-
 }
 
+@media only screen and (max-width: 600px) {
+  .professional-container span{
+    font-size: 80%;
+
+  }
+}
+@media only screen  and (max-width: 600px){
+  .professional-container span {
+    font-size: 70%;
+  }
+}
+
+@media only screen  and (max-width: 600px){
+  .professional-container h4 {
+    font-size: 150%;
+  }
+}
+
+@media only screen  and (max-width: 600px){
+  .extras h4 {
+    font-size: 130%;
+    
+  }
+}
 .certs span {
 margin-bottom: 2%;
 color:rgb(204, 78, 63);
 
-
-
+}
+@media only screen  and (max-width: 600px){
+  h3 {
+    font-size: 150%;
+    display: flex;
+   text-align: start;
+   
+  }
+}
+@media only screen  and (max-width: 600px){
+  .certs li {
+    font-size: 90%;
+   
+  }
 }
 
 footer {
