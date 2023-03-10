@@ -75,6 +75,19 @@ button:hover{
     
 
 }
+.routing a #projects {
+    display: flex;
+    text-decoration: underline rgb(191,179,76 ) ;
+    background-color: floralwhite;
+    margin-top: 5%;
+    margin-right: 20px;
+    color: rgb(49, 33, 16);
+}
+
+.routing #projects:hover {
+    
+
+}
 
 .routing #github, .routing #linkedin {
     margin-left: 1%;
@@ -106,8 +119,7 @@ button:hover{
 }
 
 .iAm{
-    display: block;
-    justify-content: space-around;
+    display: flex;
     justify-content: center;
     color: floralwhite;
     font-family: 'Major Mono Display', monospace;
@@ -117,6 +129,14 @@ button:hover{
     text-shadow: 0 0 5px #A48673;
     
     
+}
+.iAm a button {
+   
+    background-color: floralwhite;
+    text-decoration: underline rgb(204, 78, 63);
+    margin-left: 20%;
+
+
 }
 #resume a {
     margin-top: 2%;

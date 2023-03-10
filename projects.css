@@ -1,0 +1,27 @@
+body{
+    padding: 2%;
+    background-color: floralwhite;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-description {
+    background-color: whitesmoke;
+
+}
+.bpmn {
+    background-color: whitesmoke;
+}
+
+.med-img {
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+.wireframe {
+    display: flex;
+    justify-content: center;
+}
